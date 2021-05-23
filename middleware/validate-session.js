@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-var User = require('../models/user');
+const User = require('../models/user');
 
 module.exports = function (req, res, next) {
     if (req.method == 'OPTIONS') {
